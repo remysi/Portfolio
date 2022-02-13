@@ -1,0 +1,100 @@
+/* Laajat asetukset */
+body	{
+	font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+	word-wrap: break-word;
+}
+html	{
+	background-color: #8B8B8B;
+}
+a	{
+	padding: 5px;
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	background-color: #FF9123;
+	border-style: double;
+	border-width: 7px;
+	border-color: black;
+}
+input	{
+	color:black;
+	background-color: #FFCC9F;
+	text-decoration: none;
+}
+
+/* Tarkemmat asetukset napeille, tekstikentille ja muulle sen tapaisille */
+input[type=submit]	{
+	background-color: #FE8A24;
+}
+input[name=logout]	{
+	padding: 5px;
+	font-size: 15px;
+	background-color: #FF9123;
+	color: black;
+	border-style: double;
+	border-width: 7px;
+	border-color: black;
+}
+button[type=submit]	{
+	background-color: #FE8A24;
+}
+select	{
+	background-color: #FF9123;
+	margin-top: 10px;
+}
+::placeholder	{
+	color:black;
+}
+textarea	{
+	resize: vertical;
+	max-height: 500px;
+	background-color: #FFCC9F;
+}
+
+/* Elementit */
+.linkit	{
+	height: 70px;
+	width: 780px;
+}
+.ylapalkki	{
+	width: 785px;
+	height: 150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EA9D04;
+	border-style: outset;
+	border-width: 10px;
+	border-color: #FF8125;
+}
+.tausta	{
+	display: block;
+	width: 800px;
+	height: auto;
+	padding-bottom: 35px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #A3A3A3;
+	border: inset;
+	border-color: #FF8125;
+}
+.sisalto_tausta	{
+	width: 400px;
+	height: auto;
+	padding-bottom: 35px;
+	margin-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFBA30;
+	border-style: inset;
+	border-width: 10px;
+	border-color: #FF8125;
+}
+.sisalto	{
+	width: 300px;
+	height: auto;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
